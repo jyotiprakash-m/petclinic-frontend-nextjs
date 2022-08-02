@@ -194,6 +194,11 @@ const VisitComponent = () => {
                                 setPets(res.data);
                             })
                             .catch((err) => { console.log(err) });
+                        axios.get("api/visit/get")
+                                .then((res) => {
+                                    setVisits(res.data);
+                                })
+                                .catch((err) => { console.log(err) });
                     })
                     .then(() => {
                         setLoading(false);
