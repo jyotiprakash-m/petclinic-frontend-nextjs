@@ -1,0 +1,48 @@
+.nav {
+  padding: 1rem;
+  background-color: rgb(226, 242, 252);
+}
+
+.nav a {
+  font-size: 1.2rem;
+}
+
+.nav a,
+.nav h2 {
+  color: rgb(49, 128, 255)
+}
+
+.logo {
+  font-family: Montserrat;
+  color: #313131;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #b1b1b1;
+  justify-content: center;
+  align-items: center;
+  color: rgb(49, 128, 255);
+}
+
+
+.heading {
+  text-align: center;
+  margin-top: 5rem;
+  color: rgb(49, 128, 255);
+}
+
+.card {
+  box-shadow: -4px 1px 25px -4px rgb(182, 209, 250);
+  border-radius: 1rem !important;
+  width: 350px;
+  padding: 3rem !important;
+  /* height: 200px; */
+}
+
+
+@media (max-width: 600px) {}
