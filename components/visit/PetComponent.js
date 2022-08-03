@@ -125,12 +125,16 @@ const PetComponent = () => {
             key: 'slNo',
             render: (petId, pet, i) => <span>{i + 1}</span>,
         },
-
+        {
+            title: 'Pet Id',
+            dataIndex: 'petId',
+            key: 'petId',
+        },
         {
             title: 'Type',
             dataIndex: 'type',
             key: 'type',
-        },
+        },   
         {
             title: 'Action',
             dataIndex: 'petId',
