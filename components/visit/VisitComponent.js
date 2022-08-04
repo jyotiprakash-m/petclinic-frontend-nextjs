@@ -316,7 +316,7 @@ const VisitComponent = () => {
                     <p><b>Name :</b><span style={{ marginLeft: "1rem" }}>{selectedVisit.name}</span></p>
                     <p><b>Address :</b><span style={{ marginLeft: "1rem" }}>{selectedVisit.address}</span></p>
                     <p><b>Telephone No :</b><span style={{ marginLeft: "1rem" }}>{selectedVisit.telephone}</span></p>
-                    <p><b>Pet Type - Pet Id  :</b><span style={{ marginLeft: "1rem" }}>{findPetNameById(petId)} - <b>{petId}</b></span></p>
+                    <p><b>Pet Type - Pet Id  :</b><span style={{ marginLeft: "1rem" }}>{findPetNameById(selectedVisit.petId)} - <b>{selectedVisit.petId}</b></span></p>
                 </Card>
             </Modal>
 
